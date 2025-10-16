@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Vitor Saucedo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Vitor Saucedo</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#projetos" class="nav-link">Meus Projetos</a></li>
+                <li><a href="#aprendizado" class="nav-link">Aprendizado</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="stars"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Olá! Sou <span class="gradient-text">Vitor Saucedo</span></h1>
+            <p class="hero-subtitle">Desenvolvedor Fullstack em formação | Java • Python</p>
+            <p class="hero-description">Aprendendo praticando e construindo projetos reais para consolidar conhecimentos</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Ver Meus Projetos</button>
+                <button class="btn btn-secondary">GitHub</button>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Sou um desenvolvedor fullstack iniciante com muita vontade de aprender e crescer na área. Estou construindo meu conhecimento através de projetos práticos e estudos contínuos.</p>
+                    <p>Meu foco principal está em <strong>Java</strong> para backend e <strong>Python</strong> para automação.</p>
+                    <p>Acredito que a melhor forma de aprender é praticando, por isso estou desenvolvendo projetos reais que me ajudem a consolidar os conceitos aprendidos.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>3+</h3>
+                        <p>Projetos Práticos</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>100%</h3>
+                        <p>Dedicação</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Meus Projetos</h2>
+            <div class="projects-grid">
+
+                <!-- Aplicativo de Finanças -->
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('img/finances-app.png');"></div>
+                    <h3>Aplicativo de Finanças Pessoais</h3>
+                    <p class="project-desc">Aplicativo Web desenvolvido em Java com Spring Boot para gerenciar finanças pessoais.</p>
+                    <div class="project-tags">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                    </div>
+                    <a href="#" class="project-link">Ver no GitHub <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Aplicativo de Gerenciamento de Logística -->   
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <h3>Aplicativo de Gerenciamento de Logística</h3>
+                    <p class="project-desc">Projeto feito em grupo durante as aulas da trilha de Java do Geração Caldeira 2025.</p>
+                    <div class="project-tags">
+                        <span>Java</span>
+                    </div>
+                    <a href="#" class="project-link">Ver no GitHub <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Gerenciador de Biblioteca -->
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <h3>Gerenciador de Biblioteca</h3>
+                    <p class="project-desc">Um sistema de gerenciamento de biblioteca desenvolvido em Java para praticar lógica de programação, manipulação de dados e interação com o usuário através de interface de linha de comando (CLI). </p>
+                    <div class="project-tags">
+                        <span>Java</span>
+                    </div>
+                    <a href="#" class="project-link">Ver no GitHub <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aprendizado -->
+    <section id="aprendizado" class="learning">
+        <div class="container">
+            <h2 class="section-title">Minha Jornada de Aprendizado</h2>
+            
+            <div class="learning-content">
+                <!-- Java -->
+                <div class="tech-group">
+                    <h3><i class="fab fa-java"></i> Java</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Orientação a Objetos</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 50%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Python -->
+                <div class="tech-group">
+                    <h3><i class="fab fa-python"></i> Python</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Fundamentos Python</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 50%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Django</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 50%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frontend -->
+                <div class="tech-group">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>HTML & CSS</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Próximos Passos -->
+            <div class="learning-path">
+                <h3>🎯 Próximos Passos</h3>
+                <div class="path-items">
+                    <div class="path-item">
+                        <span class="path-number">1</span>
+                        <div>
+                            <h4>Dominar Spring Boot</h4>
+                            <p>Aprofundar em frameworks e criar aplicações mais robustas</p>
+                        </div>
+                    </div>
+                    <div class="path-item">
+                        <span class="path-number">2</span>
+                        <div>
+                            <h4>Full Stack Completo</h4>
+                            <p>Integrar conhecimentos em projetos maiores e profissionais</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2 class="section-title">Vamos Conectar?</h2>
+            <p class="contact-subtitle">Estou aberto a oportunidades de aprendizado, code reviews e feedback!</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>vitorsaucedo18@outlook.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p>github.com/VitorSaucedo</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p>linkedin.com/in/vitor-saucedo-uggeri-641868365</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Seu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Sua Mensagem (feedback, dicas, oportunidades)" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Dev Fullstack Iniciante. Aprendendo e evoluindo todos os dias! 🚀</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
