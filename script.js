@@ -359,15 +359,15 @@ document.querySelectorAll('.project-link').forEach((link, index) => {
         
         // Gerenciador de Biblioteca
         if (index === 0) {
-            window.open('https://github.com/VitorSaucedo/library-management-system', '_blank');
+            window.open('https://github.com/VitorSaucedo/finances_app', '_blank');
         }
         // App de Finanças
         else if (index === 1) {
-            window.open('https://github.com/VitorSaucedo/finances_app', '_blank');
+            window.open('https://github.com/jpzxcf/primeiro-projeto-bug-e-feature', '_blank');
         }
         // Gerenciamento de Logística
         else if (index === 2) {
-            window.open('https://github.com/jpzxcf/primeiro-projeto-bug-e-feature', '_blank');
+            window.open('https://github.com/VitorSaucedo/library-management-system', '_blank');
         }
     });
 });
