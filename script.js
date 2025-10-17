@@ -363,7 +363,7 @@ document.querySelectorAll('.project-link').forEach((link, index) => {
         }
         // App de Finanças
         else if (index === 1) {
-            window.open('https://github.com/jpzxcf/primeiro-projeto-bug-e-feature', '_blank');
+            window.open('https://github.com/VitorSaucedo/logistics-management-system', '_blank');
         }
         // Gerenciamento de Logística
         else if (index === 2) {
