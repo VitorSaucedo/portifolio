@@ -369,6 +369,10 @@ document.querySelectorAll('.project-link').forEach((link, index) => {
         else if (index === 2) {
             window.open('https://github.com/VitorSaucedo/library-management-system', '_blank');
         }
+        // To Do List
+        else if (index === 3) {
+            window.open('https://github.com/VitorSaucedo/to-do-list', '_blank');
+        }
     });
 });
 
