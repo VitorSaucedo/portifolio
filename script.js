@@ -357,15 +357,15 @@ document.querySelectorAll('.project-link').forEach((link, index) => {
     link.addEventListener('click', (e) => {
         e.preventDefault();
         
-        // Gerenciador de Biblioteca
+        // App de Finanças
         if (index === 0) {
             window.open('https://github.com/VitorSaucedo/finances_app', '_blank');
         }
-        // App de Finanças
+        // Gerenciamento de Logística
         else if (index === 1) {
             window.open('https://github.com/VitorSaucedo/logistics-management-system', '_blank');
         }
-        // Gerenciamento de Logística
+        // Gerenciador de Biblioteca
         else if (index === 2) {
             window.open('https://github.com/VitorSaucedo/library-management-system', '_blank');
         }
